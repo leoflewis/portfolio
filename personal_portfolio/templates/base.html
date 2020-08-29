@@ -1,0 +1,21 @@
+{% load static from static %}
+<head>
+  <link rel="stylesheet" href = "{% static 'style.css' %}" type="text/css">
+</head>
+<body>
+  <nav>
+      <div class="container">
+          <a id="navbar" href="{% url 'home' %}">Leo Site</a>
+              <li class="nav-item"><a id="navbar" href="{% url 'project_index' %}">Projects</a>
+              </li>
+              <li class="nav-item"><a id="navbar" href="{% url 'blog_index' %}">Blog</a>
+              </li>
+      </div>
+    </nav>
+  <div class="container">
+    {% block page_content %}{% endblock %}
+  </div>
+  <footer> 
+    <h5> Contact me Fleonardolewis@gmail.com</h5>
+  </footer>
+</body>

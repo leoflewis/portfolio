@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    border-radius: 50px;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 8px 16px;
+}
+#navbar{
+    color: white;
+}
+h1{
+    color:black;
+    text-align: center;
+    background-color: white;
+}
+h2{
+    color:black;
+    text-align: center;
+    background-color: white;
+}
+p{
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+.fade-in {
+    position: relative;
+    width: 50%;
+} 
+.container{
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+img{
+    width: 50%;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}

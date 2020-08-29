@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static from static %}
+{% block page_content %}
+<head>
+    <link href="{% static 'style.css' %}" type="text/css" rel="stylesheet">
+</head>
+<body> 
+    <h1>Hello friends!</h1>
+    <img src="static/leoimg.JPG" class="image" >    
+    <p> My name is Leo Lewis and I am aspiring software engineer. Take a look at my projects, blog posts or resume. If you made it this far, please send me a messge.</p>
+</body>
+{% endblock %}
